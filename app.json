@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "mullichat",
+    "slug": "snack-b93dac84-fd5e-4041-91a6-dd60e47e2c3e",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
