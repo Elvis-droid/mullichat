@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "mullichat",
+    "slug": "mullichat",
+    "owner": "fuses-team",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.fusesteam.mullichat",
+      "infoPlist": {
+        "NSBluetoothAlwaysUsageDescription": "This app uses Bluetooth for secure peer-to-peer messaging",
+        "NSBluetoothPeripheralUsageDescription": "This app uses Bluetooth for mesh networking"
+      }
+    },
+    "android": {
+      "package": "com.fusesteam.mullichat",
+      "permissions": [
+        "BLUETOOTH",
+        "BLUETOOTH_ADMIN",
+        "ACCESS_FINE_LOCATION",
+        "BLUETOOTH_ADVERTISE",
+        "BLUETOOTH_CONNECT",
+        "BLUETOOTH_SCAN"
+      ]
+    },
+    "plugins": [
+      "expo-bitchat",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "minSdkVersion": 29
+          }
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "c8cc334c-420e-4e0e-b412-0f1d56efa5cd"
+      }
+    }
+  }
+}
